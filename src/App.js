@@ -1,13 +1,13 @@
 
+import Header from './Components/Header';
+import SearchBar from './Components/SearchBar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-  
-
-      </header>
+      <Header/>
+      <SearchBar/>
     </div>
   );
 }
